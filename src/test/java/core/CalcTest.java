@@ -35,4 +35,9 @@ public class CalcTest {
 
 
     
+    @Test(enabled = true, groups = {"add","all"}, priority=0)
+    public void test_add2() {
+        assertEquals(Calc.add(20, 20), 40);
+    }
+
 }
